@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +7,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 style="text-align: center";>Book recommendation from Interviews</h1>
-    <div class="interview-list">
-        <article class="interview-entry">
-            <h2>2024</h2>
+    <h1 style="text-align: center">Book recommendation from Interviews</h1>
+    
+    <!-- Neueste Uploads Sektion -->
+    <section class="latest-uploads">
+        <h2>New Uploads</h2>
+        <ul>
+            <li>
+                <span class="interview-title">Joe Rogan Experience #2232: Josh Brolin</span>
+                <span class="date">22. November 2024</span>
+            </li>
+            <li>
+                <span class="interview-title">Lex Fridman Podcast #453: Javier Milei</span>
+                <span class="date">22. November 2024</span>
+            </li>
+            <li>
+                <span class="interview-title">Lex Fridman Podcast #452: Dario Amodei</span>
+                <span class="date">22. November 2024</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Podcast Kategorien -->
+    <div class="podcast-categories">
+        <!-- Lex Fridman Sektion -->
+        <section class="podcast-section">
+            <h2>Lex Fridman</h2>
             <ul>
                 <li>
-                    <span class="date">22. November 2024</span>
-                    <a href="/books/videos/lexFriedman/javier-milei.html">Lex Fridman Podcast #453: Javier Milei</a>
+                    <a href="/books/videos/lexFriedman/javier-milei.html">
+                        Podcast #453: Javier Milei
+                        <span class="date">22. November 2024</span>
+                    </a>
                 </li>
                 <li>
-                    <span class="date">22. November 2024</span>
-                    <a href="/books/videos/lexFriedman/dario-amodei.html">Lex Fridman Podcast #452: Dario Amodei</a>
+                    <a href="/books/videos/lexFriedman/dario-amodei.html">
+                        Podcast #452: Dario Amodei
+                        <span class="date">22. November 2024</span>
+                    </a>
                 </li>
                 <li>
-                    <span class="date">15. März 2024</span>
-                    <a href="/books/videos/lexFriedman/rick-spence.html">Lex Fridman Podcast #451: Rick Spence</a>
+                    <a href="/books/videos/lexFriedman/rick-spence.html">
+                        Podcast #451: Rick Spence
+                        <span class="date">15. März 2024</span>
+                    </a>
                 </li>
-                
-                <!-- Neue Interviews werden hier oben hinzugefügt -->
             </ul>
-        </article>
+        </section>
+
+        <!-- Joe Rogan Sektion -->
+        <section class="podcast-section">
+            <h2>Joe Rogan Experience</h2>
+            <ul>
+                <li>
+                    <a href="/books/videos/joeRogan/josh-brolin.html">
+                        #2232: Josh Brolin
+                        <span class="date">22. November 2024</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
